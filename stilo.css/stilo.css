@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0 ;
+}
+/* aqui inicia index principal*/
+body{
+    background-image: url(../imagenes/concrete_wall.png);
+}
+
+.encabezado h1{
+margin: 20px;
+padding: 10px;
+text-align:center;
+ animation-duration: 2s;   
+ animation-name: opaco;
+ animation-iteration-count: infinite;   
+}
+@keyframes opaco{
+  0%{
+      opacity: 0;
+  }
+  100%{
+      opacity: 1;
+  }
+}
+
+
+.encabezado p{
+margin: 5px;
+padding: 5px;
+text-align: center;
+}
+.index img{
+    margin: 20px;
+}
+.index p{
+margin: 20px;
+}
+.index h2{
+    margin: 20px;
+}
+.index table{
+    margin-left: 20px;
+    margin-right: 20px;
+} 
+.pie{
+    display: inline-flex;
+    padding: 10px;
+}
+.pie p{
+    margin: 5px;
+    text-decoration: underline;
+    color: crimson;
+}
+.pie iframe{
+      border-style: solid;
+      border-radius: 5px;
+      border-color:red;
+      margin: 5px;
+}
+.pie :hover img{
+    transform: translate(10px,-20px);
+}
+.pie a{
+    margin: 5px;
+    
+}
+.pie div{
+    justify-content: center;
+}
+.encabezado :hover img{
+    transform: translate(10px,-20px);
+}
+
+
+
+/*aqui finaliza index principal*/
+/* aqui comienza style de consultas*/
+.formulario{
+    background-color:black;
+}
+/* aqui finaliza style de consultas*/
+/* aqui comineza style de nosotros*/
+ h2{
+    margin: 30px;
+}
+
+
+
+
